@@ -41,6 +41,23 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+			<version>3.0.4</version>
+		</dependency>
+<!-- Other dependencies -->
+			<dependency>
+				<groupId>com.ecommerce</groupId> <!-- Adjust groupId based on your actual configuration -->
+				<artifactId>product-service</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+		<dependency>
+			<groupId>com.ecommerce</groupId>
+			<artifactId>order-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
